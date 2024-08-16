@@ -21,6 +21,11 @@ public class TestNgPr {
 		System.out.println("Third Test");
 	}
 	
+	@Test(priority=4)
+	public void FourthTest() {
+		System.out.println("Fourth Test");
+	}
+	
 	@BeforeTest
 	public void NormalTest() {
 		System.out.println("normal");
