@@ -16,7 +16,7 @@ public class TestNgPr {
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=3)
 	public void ThirdTest() {
 		System.out.println("Third Test");
 	}
