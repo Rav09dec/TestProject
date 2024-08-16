@@ -14,8 +14,7 @@ public class TestSelClass {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
 		driver.getTitle();
-		
-		
+		driver.close();	
 		 
 
 	}
