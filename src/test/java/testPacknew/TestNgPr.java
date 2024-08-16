@@ -15,6 +15,12 @@ public class TestNgPr {
 		System.out.println("Second Test");
 	}
 	
+	
+	@Test(priority=1)
+	public void ThirdTest() {
+		System.out.println("Third Test");
+	}
+	
 	@BeforeTest
 	public void NormalTest() {
 		System.out.println("normal");
