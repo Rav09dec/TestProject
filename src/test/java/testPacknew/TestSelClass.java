@@ -15,12 +15,9 @@ public class TestSelClass {
 		driver.manage().window().maximize();
 		String s = driver.getTitle();
 		System.out.println(s);
-<<<<<<< HEAD
-	
-		
-=======
+
 		driver .close();
->>>>>>> tester
+
 		
 		 
 
