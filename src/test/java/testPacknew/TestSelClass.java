@@ -13,15 +13,11 @@ public class TestSelClass {
 		WebDriver driver=new EdgeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
-<<<<<<< HEAD
-		driver.getTitle();
-		driver.close();	
-=======
 		String s = driver.getTitle();
 		System.out.println(s);
+	
 		
 		
->>>>>>> tester
 		 
 
 	}
