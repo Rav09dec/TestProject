@@ -3,6 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <classes>
-  <class name="testPacknew.TstNg1"></class></classes>
+  <class name="testPacknew.TestSelClass"></class></classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
